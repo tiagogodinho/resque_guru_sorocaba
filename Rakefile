@@ -4,4 +4,10 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+require 'resque/tasks'
+require 'resque_scheduler/tasks'
+
 Resque::Application.load_tasks
+
+task 'resque:setup'           => :environment
+task "resque:scheduler_setup" => :environment
