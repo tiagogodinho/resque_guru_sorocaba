@@ -6,12 +6,3 @@ class Report
   end
 end
 
-# bundle exec resque-web config/initializers/resque.rb
-
-# VERBOSE=true QUEUE=jobs rake environment resque:work
-
-# bundle exec rake resque:scheduler
-
-# ps -e -o pid,command | grep [r]esque
-
-# kill -9 4833
