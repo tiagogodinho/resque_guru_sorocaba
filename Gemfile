@@ -15,6 +15,7 @@ gem 'uglifier'
 gem 'jquery-rails'
 
 gem 'resque'
+gem 'resque_mailer'
 
 # Use unicorn as the web server
 # gem 'unicorn'
