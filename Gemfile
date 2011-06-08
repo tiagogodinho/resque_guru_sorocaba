@@ -16,6 +16,7 @@ gem 'jquery-rails'
 
 gem 'resque'
 gem 'resque_mailer'
+gem 'resque-scheduler', :git => 'git://github.com/bvandenbos/resque-scheduler.git', :require => 'resque_scheduler'
 
 # Use unicorn as the web server
 # gem 'unicorn'
